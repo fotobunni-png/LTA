@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --color-primary: #6a1a78;
+  --color-primary-dark: #4d005b;
+  --color-secondary: #d8232a;
+  --color-secondary-dark: #bb0119;
+  --color-tertiary: #1e293b;
+  --color-interchange-navy: #0f172a;
+  --color-capacity-seats: #16a34a;
+  --color-capacity-standing: #d97706;
+  --color-capacity-limited: #dc2626;
+  --color-bus-wheelchair: #0284c7;
+  --color-surface-subtle: #f8fafc;
+  --color-surface-border: #e2e8f0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8f9ff;
+  color: #0b1c30;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar for dense transit tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

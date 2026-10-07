@@ -1,0 +1,6 @@
+{
+  "name": "Singapore Commuter Transit Pulse",
+  "description": "Civic-grade, real-time public transit dashboard for Singapore commuters, station controllers, and fleet dispatchers with live bus arrivals, crowding indicators, and interactive corridor telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
